@@ -1,0 +1,6 @@
+21:40:25.270 [main] INFO  com.gamestop.resources.Base - Initializing  webdriver
+21:40:25.301 [main] INFO  com.gamestop.resources.Base - Browser selected is :chrome
+21:41:03.213 [main] INFO  com.gamestop.resources.Base - Successfully luanch URLhttps://sfcc-stg.gamestop.com/?rt=homePageRedesign
+21:41:03.345 [main] INFO  com.gamestop.resources.Base - switch to frame
+21:41:21.230 [main] INFO  com.gamestop.resources.Base - Moved to +1 day
+21:41:21.565 [main] INFO  com.gamestop.resources.Base - Gamestop testcase Execution Completed

@@ -1,0 +1,6 @@
+20:23:19.429 [main] INFO  com.gamestop.resources.Base - GameStop login testcase Execution Started
+20:23:19.438 [main] INFO  com.gamestop.resources.Base - Loaded config property file
+20:23:19.524 [main] INFO  com.gamestop.resources.Base - Initializing  webdriver
+20:23:19.561 [main] INFO  com.gamestop.resources.Base - Browser selected is :chrome
+20:24:24.606 [main] INFO  com.gamestop.resources.Base - Successfully luanch URLhttps://sfcc-stg.gamestop.com/?rt=homePageRedesign
+20:24:24.671 [main] INFO  com.gamestop.resources.Base - switch to frame

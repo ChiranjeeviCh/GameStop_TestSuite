@@ -1,0 +1,5 @@
+20:54:17.909 [main] INFO  com.gamestop.tests_staging.GameStop_E2E_stage - After adding Recommended Products 30
+20:54:18.019 [main] INFO  com.gamestop.tests_staging.GameStop_E2E_stage - After adding Top Selling collectabiles 30
+20:54:18.232 [main] INFO  com.gamestop.tests_staging.GameStop_E2E_stage - After adding Video Games Coming Soon 34
+20:54:18.233 [main] INFO  com.gamestop.tests_staging.GameStop_E2E_stage - total links from home page is 34
+21:11:25.264 [main] INFO  com.gamestop.resources.Base - Gamestop testcase Execution Completed

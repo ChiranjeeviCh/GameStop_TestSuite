@@ -1,0 +1,5 @@
+22:48:08.661 [main] INFO  com.gamestop.resources.Base - Gamestop testcase Execution Completed
+22:48:49.536 [main] INFO  com.gamestop.tests_staging.GameStop_E2E_stage - Home page carousals are :11
+22:48:49.551 [main] INFO  com.gamestop.tests_staging.GameStop_E2E_stage - After adding most anticipated VGs:11
+22:49:00.400 [main] INFO  com.gamestop.tests_staging.GameStop_E2E_stage - After adding top selleing games :21
+22:49:00.415 [main] INFO  com.gamestop.tests_staging.GameStop_E2E_stage - After adding More Product & Features 21

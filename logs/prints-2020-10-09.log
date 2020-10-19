@@ -1,0 +1,6 @@
+00:06:10.968 [main] INFO  com.gamestop.workflows.Home_Stage - switch to frame
+00:06:25.420 [main] INFO  com.gamestop.resources.Base - GameStop login testcase Execution Started
+00:06:25.420 [main] INFO  com.gamestop.resources.Base - Loaded config property file
+00:06:25.482 [main] INFO  com.gamestop.tests_staging.GameStop_E2E_stage - Initializing  webdriver
+00:06:26.218 [main] INFO  com.gamestop.resources.Base - Browser selected is :chrome
+00:21:12.755 [main] INFO  com.gamestop.resources.Base - GameStop login testcase Execution Started

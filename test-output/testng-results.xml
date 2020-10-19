@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="7" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="83096" started-at="2020-10-14T22:40:29 IST" finished-at="2020-10-14T22:41:52 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="83096" started-at="2020-10-14T22:40:29 IST" finished-at="2020-10-14T22:41:52 IST">
+      <class name="com.gamestop.tests_staging.GameStop_E2E_stage">
+        <test-method status="PASS" signature="extentReportSetup()[pri:0, instance:com.gamestop.tests_staging.GameStop_E2E_stage@649bec2e]" name="extentReportSetup" is-config="true" duration-ms="98" started-at="2020-10-14T22:40:29 IST" finished-at="2020-10-14T22:40:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportSetup -->
+        <test-method status="PASS" signature="driverInitiate()[pri:0, instance:com.gamestop.tests_staging.GameStop_E2E_stage@649bec2e]" name="driverInitiate" is-config="true" duration-ms="69585" started-at="2020-10-14T22:40:29 IST" finished-at="2020-10-14T22:41:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInitiate -->
+        <test-method status="PASS" signature="accessories()[pri:0, instance:com.gamestop.tests_staging.GameStop_E2E_stage@649bec2e]" name="accessories" duration-ms="10" started-at="2020-10-14T22:41:38 IST" finished-at="2020-10-14T22:41:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accessories -->
+        <test-method status="PASS" signature="extentReportTearDown(org.testng.ITestResult)[pri:0, instance:com.gamestop.tests_staging.GameStop_E2E_stage@649bec2e]" name="extentReportTearDown" is-config="true" duration-ms="358" started-at="2020-10-14T22:41:38 IST" finished-at="2020-10-14T22:41:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=accessories status=SUCCESS method=GameStop_E2E_stage.accessories()[pri:0, instance:com.gamestop.tests_staging.GameStop_E2E_stage@649bec2e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportTearDown -->
+        <test-method status="PASS" signature="homePage()[pri:1, instance:com.gamestop.tests_staging.GameStop_E2E_stage@649bec2e]" name="homePage" duration-ms="10243" started-at="2020-10-14T22:41:39 IST" finished-at="2020-10-14T22:41:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePage -->
+        <test-method status="PASS" signature="extentReportTearDown(org.testng.ITestResult)[pri:0, instance:com.gamestop.tests_staging.GameStop_E2E_stage@649bec2e]" name="extentReportTearDown" is-config="true" duration-ms="627" started-at="2020-10-14T22:41:49 IST" finished-at="2020-10-14T22:41:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=homePage status=SUCCESS method=GameStop_E2E_stage.homePage()[pri:1, instance:com.gamestop.tests_staging.GameStop_E2E_stage@649bec2e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportTearDown -->
+        <test-method status="FAIL" signature="videoGames()[pri:2, instance:com.gamestop.tests_staging.GameStop_E2E_stage@649bec2e]" name="videoGames" duration-ms="4" started-at="2020-10-14T22:41:50 IST" finished-at="2020-10-14T22:41:50 IST">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy27.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670)
+at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+at com.gamestop.resources.Base.WaitForObjectToBeClickable(Base.java:702)
+at com.gamestop.tests_staging.GameStop_E2E_stage.videoGames(GameStop_E2E_stage.java:82)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- videoGames -->
+        <test-method status="PASS" signature="extentReportTearDown(org.testng.ITestResult)[pri:0, instance:com.gamestop.tests_staging.GameStop_E2E_stage@649bec2e]" name="extentReportTearDown" is-config="true" duration-ms="434" started-at="2020-10-14T22:41:50 IST" finished-at="2020-10-14T22:41:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=videoGames status=FAILURE method=GameStop_E2E_stage.videoGames()[pri:2, instance:com.gamestop.tests_staging.GameStop_E2E_stage@649bec2e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportTearDown -->
+        <test-method status="PASS" signature="toysAndCollectiblies()[pri:3, instance:com.gamestop.tests_staging.GameStop_E2E_stage@649bec2e]" name="toysAndCollectiblies" duration-ms="1" started-at="2020-10-14T22:41:50 IST" finished-at="2020-10-14T22:41:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toysAndCollectiblies -->
+        <test-method status="PASS" signature="extentReportTearDown(org.testng.ITestResult)[pri:0, instance:com.gamestop.tests_staging.GameStop_E2E_stage@649bec2e]" name="extentReportTearDown" is-config="true" duration-ms="539" started-at="2020-10-14T22:41:50 IST" finished-at="2020-10-14T22:41:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=toysAndCollectiblies status=SUCCESS method=GameStop_E2E_stage.toysAndCollectiblies()[pri:3, instance:com.gamestop.tests_staging.GameStop_E2E_stage@649bec2e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportTearDown -->
+        <test-method status="PASS" signature="electronics()[pri:4, instance:com.gamestop.tests_staging.GameStop_E2E_stage@649bec2e]" name="electronics" duration-ms="2" started-at="2020-10-14T22:41:50 IST" finished-at="2020-10-14T22:41:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- electronics -->
+        <test-method status="PASS" signature="extentReportTearDown(org.testng.ITestResult)[pri:0, instance:com.gamestop.tests_staging.GameStop_E2E_stage@649bec2e]" name="extentReportTearDown" is-config="true" duration-ms="409" started-at="2020-10-14T22:41:50 IST" finished-at="2020-10-14T22:41:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=electronics status=SUCCESS method=GameStop_E2E_stage.electronics()[pri:4, instance:com.gamestop.tests_staging.GameStop_E2E_stage@649bec2e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportTearDown -->
+        <test-method status="PASS" signature="clothing()[pri:5, instance:com.gamestop.tests_staging.GameStop_E2E_stage@649bec2e]" name="clothing" duration-ms="1" started-at="2020-10-14T22:41:51 IST" finished-at="2020-10-14T22:41:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clothing -->
+        <test-method status="PASS" signature="extentReportTearDown(org.testng.ITestResult)[pri:0, instance:com.gamestop.tests_staging.GameStop_E2E_stage@649bec2e]" name="extentReportTearDown" is-config="true" duration-ms="390" started-at="2020-10-14T22:41:51 IST" finished-at="2020-10-14T22:41:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clothing status=SUCCESS method=GameStop_E2E_stage.clothing()[pri:5, instance:com.gamestop.tests_staging.GameStop_E2E_stage@649bec2e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportTearDown -->
+        <test-method status="PASS" signature="giftCards()[pri:6, instance:com.gamestop.tests_staging.GameStop_E2E_stage@649bec2e]" name="giftCards" duration-ms="2" started-at="2020-10-14T22:41:51 IST" finished-at="2020-10-14T22:41:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- giftCards -->
+        <test-method status="PASS" signature="extentReportTearDown(org.testng.ITestResult)[pri:0, instance:com.gamestop.tests_staging.GameStop_E2E_stage@649bec2e]" name="extentReportTearDown" is-config="true" duration-ms="410" started-at="2020-10-14T22:41:51 IST" finished-at="2020-10-14T22:41:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=giftCards status=SUCCESS method=GameStop_E2E_stage.giftCards()[pri:6, instance:com.gamestop.tests_staging.GameStop_E2E_stage@649bec2e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportTearDown -->
+        <test-method status="PASS" signature="ExtentClose()[pri:0, instance:com.gamestop.tests_staging.GameStop_E2E_stage@649bec2e]" name="ExtentClose" is-config="true" duration-ms="440" started-at="2020-10-14T22:41:52 IST" finished-at="2020-10-14T22:41:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtentClose -->
+        <test-method status="FAIL" signature="flushExtentReport()[pri:0, instance:com.gamestop.tests_staging.GameStop_E2E_stage@649bec2e]" name="flushExtentReport" is-config="true" duration-ms="5689" started-at="2020-10-14T22:41:52 IST" finished-at="2020-10-14T22:41:58 IST">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:12479
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WKWIN3661704', ip: '192.168.55.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:12479
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WKWIN3661704', ip: '192.168.55.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)
+at com.gamestop.resources.Base.flushExtentReport(Base.java:560)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:351)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:12479
+at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
+at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
+at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
+at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+at okhttp3.RealCall.execute(RealCall.java:77)
+at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+... 23 more
+Caused by: java.net.ConnectException: Connection refused: connect
+at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+at java.net.PlainSocketImpl.connect(Unknown Source)
+at java.net.SocksSocketImpl.connect(Unknown Source)
+at java.net.Socket.connect(Unknown Source)
+at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
+at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
+... 43 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushExtentReport -->
+      </class> <!-- com.gamestop.tests_staging.GameStop_E2E_stage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

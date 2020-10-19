@@ -1,0 +1,7 @@
+15:35:50.270 [main] INFO  resources.Base - Initializing  webdriver
+15:35:50.285 [main] INFO  resources.Base - Browser selected ischrome
+15:35:55.074 [main] INFO  resources.Base - Chat Portal testcase Execution Completed
+16:31:02.562 [main] INFO  resources.Base - GameStop login testcase Execution Started
+16:31:02.566 [main] INFO  resources.Base - Loaded config property file
+16:31:02.655 [main] INFO  resources.Base - Initializing  webdriver
+16:31:02.655 [main] INFO  resources.Base - Browser selected ischrome

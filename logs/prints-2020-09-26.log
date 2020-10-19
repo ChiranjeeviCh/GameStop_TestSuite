@@ -1,0 +1,6 @@
+23:23:34.462 [main] INFO  com.gamestop.resources.Base - GameStop login testcase Execution Started
+23:23:34.470 [main] INFO  com.gamestop.resources.Base - Loaded config property file
+23:23:34.545 [main] INFO  com.gamestop.resources.Base - Initializing  webdriver
+23:23:34.574 [main] INFO  com.gamestop.resources.Base - Browser selected is :chrome
+23:26:31.494 [main] INFO  com.gamestop.resources.Base - Gamestop testcase Execution Completed
+23:32:52.401 [main] INFO  com.gamestop.resources.Base - GameStop login testcase Execution Started

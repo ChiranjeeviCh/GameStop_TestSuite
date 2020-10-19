@@ -1,0 +1,6 @@
+23:40:05.220 [main] INFO  com.gamestop.resources.Base - Browser selected is :chrome
+23:40:28.923 [main] INFO  com.gamestop.workflows.Home_Stage - Successfully luanch URLhttps://sfcc-stg.gamestop.com/?rt=homePageRedesign
+23:40:30.824 [main] INFO  com.gamestop.workflows.Home_Stage - switch to frame
+23:40:51.711 [main] INFO  com.gamestop.workflows.Home_Stage - Moved to +1 day
+23:40:52.563 [main] INFO  com.gamestop.resources.Base - Gamestop testcase Execution Completed
+23:41:43.123 [main] INFO  com.gamestop.resources.Base - Home page carousals are :9
