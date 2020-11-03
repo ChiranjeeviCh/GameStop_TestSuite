@@ -9,15 +9,14 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.gamestop.resources.Base;
 
-public class VideoGamesPage extends Base {
+public class VideoGamesPage  {
 	
-	public WebDriver driver;
+	public  WebDriver driver;
+	
 	public VideoGamesPage(WebDriver driver) {
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
-		
 	}
-	
 	@FindBy(xpath="//ul[@class='nav navbar-nav level-1']/li/a[@data-name='Video Games']")
 	public WebElement categoryLink;
 	

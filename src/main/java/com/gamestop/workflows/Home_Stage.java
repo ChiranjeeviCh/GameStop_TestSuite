@@ -10,6 +10,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 
@@ -32,7 +33,7 @@ public class Home_Stage extends Base {
 	public Home_Stage() {
 		
 				PageFactory.initElements(driver, this);
-				PageFactory.initElements(driver, HomePage_Stage.class);
+				hm=PageFactory.initElements(driver, HomePage_Stage.class);
 	}
 	static String path=System.getProperty("user.dir")+"\\Testdata\\ExportExcel.xlsx";
 	HashMap<String,List<String>> inputData;

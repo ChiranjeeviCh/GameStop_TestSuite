@@ -23,10 +23,29 @@ public class HomePage_Stage {
 	}
 	 
 	@FindBy(xpath="//img[@alt='GameStop Homepage']")
-	public WebElement logoOfCompany;
+	public static WebElement logoOfCompany;
 	
 	@FindBy(xpath="//div[@class='home-hero1 hero-theme-light slick-slide slick-cloned']//a")
 	public static  List<WebElement> carousals;
+	
+	@FindBy(xpath="//span[contains(text(),'Deal of the Day')]")
+	public static WebElement dealsOftheDay;
+	
+	@FindBy(xpath="//span[contains(text(),'Deal of the Day')]")
+	public static List<WebElement> dealsDay;
+	
+	@FindBy(xpath="//span[contains(text(),'Deal of the Day')]/ancestor::div[@class='product-content-info']/following-sibling::div//div[contains(@class,'product grid-tile')]//a[@role='presentation']")
+	public static List<WebElement> listOfDeals;
+	
+	
+	@FindBy(xpath="//div[@class='col-12 blade-image-container']")
+	public static WebElement	bladeimage;
+	
+	@FindBy(xpath="//div[@class='col-12 blade-image-container']")
+	public static List<WebElement> bladeimages;
+	
+	@FindBy(xpath="//div[@class='col-12 blade-image-container']//a")
+	public static List<WebElement> blades;
 	
 	@FindBy(xpath="//h2[text()='Most Anticipated Video Games']")
 	public static WebElement mostAnticipatedVG;
@@ -40,6 +59,24 @@ public class HomePage_Stage {
 			
 	@FindBy(xpath="//h2[text()='Featured Products & Offers']")
 	public static  WebElement featurePO;
+	
+	@FindBy(xpath="//h2[contains(text(),'Accessories')]")
+	public static WebElement access;
+	
+	@FindBy(xpath="//h2[contains(text(),'Accessories')]")
+	public static List<WebElement> hotaccess;
+	
+	@FindBy(xpath="//h2[contains(text(),'Accessories')]/parent::div/following-sibling::div//a")
+	public static List<WebElement> listOfHotacces;
+	
+	@FindBy(xpath="//h2[text()='Collectibles Offers']")
+	public static WebElement collectibleTitle;
+	
+	@FindBy(xpath="//h2[text()='Collectibles Offers']")
+	public static List<WebElement> collectibles;
+	
+	@FindBy(xpath="//h2[text()='Collectibles Offers']/parent::div/following-sibling::div//a")
+	public static List<WebElement> listOfCollectibles;
 	
 	
 	
@@ -159,7 +196,7 @@ public class HomePage_Stage {
 	public List<WebElement> listOfCarousals(){
 		return carousals;
 	}
-	static String path=System.getProperty("user.dir")+"\\Testdata\\ExportExcel.xlsx";
+	
 	
 	public void stagingPlus1Day() throws Exception {
 		Base.WaitForElementPresent(cd.settings(), 10);
@@ -227,7 +264,7 @@ public class HomePage_Stage {
    		 Base.exportData(path,sheetName, "Department", j+2, "HOME PAGE");
    		 Base.exportData(path,sheetName, "Department URL", j+2, deptURL);
    		 Base.exportData(path,sheetName, "Navigation URL", j+2, carouselLinks.get(j));
-        	//System.out.println("Site content updated with navigation url.");
+        	
         }
 	}
 	
@@ -241,12 +278,10 @@ public class HomePage_Stage {
         			for(WebElement ele: breadcrumbPath()) {
             			String brdcrumbtext = ele.getText();
             			System.out.print(brdcrumbtext+" >> ");
-            			breadcrumbPath=breadcrumbPath+" >> "+brdcrumbtext;
             		}
         		Base.wait5Seconds();
         		for(WebElement ele:searchResults) {
         			srchelmnt = ele.getText();
-        			System.out.print("Search element is:"+srchelmnt);
         			
         		}
         		srchelmnt=srchelmnt.replaceAll("\\s", " ");

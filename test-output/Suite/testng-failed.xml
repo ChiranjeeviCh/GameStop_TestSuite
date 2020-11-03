@@ -3,14 +3,64 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="com.gamestop.tests_staging.GameStop_Mobile_Prod">
+        <methods>
+          <include name="ExtentClose"/>
+          <include name="videoGames_validation"/>
+          <include name="clothing_validation"/>
+          <include name="extentReportTearDown"/>
+          <include name="driverInitiate"/>
+          <include name="extentReportSetup"/>
+          <include name="toysAndCollectibiles"/>
+          <include name="accessories_validation"/>
+          <include name="deals_validation"/>
+          <include name="homepage_mob_Validation"/>
+          <include name="flushExtentReport"/>
+        </methods>
+      </class> <!-- com.gamestop.tests_staging.GameStop_Mobile_Prod -->
+      <class name="com.gamestop.tests_staging.GameStop_E2E_prod">
+        <methods>
+          <include name="electronics_validation"/>
+          <include name="ExtentClose"/>
+          <include name="clothing_validations"/>
+          <include name="homePage_Validation"/>
+          <include name="videoGames_ContentValidation"/>
+          <include name="accessories_validation"/>
+          <include name="extentReportTearDown"/>
+          <include name="driverInitiate"/>
+          <include name="extentReportSetup"/>
+          <include name="deals_validation"/>
+          <include name="flushExtentReport"/>
+        </methods>
+      </class> <!-- com.gamestop.tests_staging.GameStop_E2E_prod -->
+      <class name="com.gamestop.tests_staging.GameStop_Mobile_Stage">
+        <methods>
+          <include name="deals_Validation"/>
+          <include name="ExtentClose"/>
+          <include name="videoGames_ContentValidation"/>
+          <include name="homePage_contentValidation"/>
+          <include name="clothing_Validation"/>
+          <include name="accessories_ContentaValidation"/>
+          <include name="driverInitiate"/>
+          <include name="extentReportTearDown"/>
+          <include name="toysAndCollectibiles_validation"/>
+          <include name="extentReportSetup"/>
+          <include name="flushExtentReport"/>
+        </methods>
+      </class> <!-- com.gamestop.tests_staging.GameStop_Mobile_Stage -->
       <class name="com.gamestop.tests_staging.GameStop_E2E_stage">
         <methods>
           <include name="ExtentClose"/>
+          <include name="clothing"/>
+          <include name="giftCards"/>
           <include name="driverInitiate"/>
-          <include name="homePage"/>
+          <include name="toysAndCollectiblies"/>
           <include name="extentReportTearDown"/>
+          <include name="dealsOfTheDay"/>
+          <include name="electronics"/>
           <include name="videoGames"/>
           <include name="extentReportSetup"/>
+          <include name="accessories"/>
           <include name="flushExtentReport"/>
         </methods>
       </class> <!-- com.gamestop.tests_staging.GameStop_E2E_stage -->

@@ -3,16 +3,23 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.gamestop.tests_staging.GameStop_E2E_stage">
+      <class name="com.gamestop.tests.GameStop_E2E_stage">
         <methods>
-          <include name="ExtentClose"/>
+          <include name="giftCards"/>
+          <include name="clothing"/>
+          <include name="deals"/>
           <include name="driverInitiate"/>
-          <include name="extentReportTearDown"/>
-          <include name="videoGames"/>
           <include name="extentReportSetup"/>
+          <include name="videoGames"/>
           <include name="flushExtentReport"/>
+          <include name="toysAndCollectiblies"/>
+          <include name="ExtentClose"/>
+          <include name="extentReportTearDown"/>
+          <include name="accessories"/>
+          <include name="electronics"/>
+          <include name="videoGames_homepage"/>
         </methods>
-      </class> <!-- com.gamestop.tests_staging.GameStop_E2E_stage -->
+      </class> <!-- com.gamestop.tests.GameStop_E2E_stage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

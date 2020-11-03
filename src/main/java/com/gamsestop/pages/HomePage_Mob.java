@@ -7,11 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import com.gamestop.resources.Base;
-
-public class HomePage_Mob extends Base{
-
-	
+public class HomePage_Mob {
 	public WebDriver driver;
 	public HomePage_Mob(WebDriver driver) {
 		this.driver=driver;

@@ -439,7 +439,7 @@ public class Base {
 
 		 /* Loading all the values from Config properties */	 	
 			public Properties loadPropertyFile() throws IOException {
-				FileInputStream fileInputStream = new FileInputStream( System.getProperty("user.dir") + "/src/main/java/com/gamestop/resources/commondata.properties");
+				FileInputStream fileInputStream = new FileInputStream(System.getProperty("user.dir") + "/src/main/java/com/gamestop/resources/commondata.properties");
 				properties = new Properties();
 				properties.load(fileInputStream);
 				return properties;

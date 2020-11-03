@@ -1,0 +1,6 @@
+22:20:17.085 [main] INFO  com.gamestop.workflows.Home_Stage - Successfully luanch URLhttps://sfcc-stg.gamestop.com/?rt=homePageRedesign
+22:20:17.588 [main] INFO  com.gamestop.workflows.Home_Stage - switch to frame
+22:20:38.070 [main] INFO  com.gamestop.workflows.Home_Stage - Moved to +1 day
+22:20:38.536 [main] INFO  com.gamestop.resources.Base - Gamestop testcase Execution Completed
+22:20:38.873 [main] INFO  com.gamestop.resources.Base - Gamestop testcase Execution Completed
+22:20:39.304 [main] INFO  com.gamestop.resources.Base - Gamestop testcase Execution Completed

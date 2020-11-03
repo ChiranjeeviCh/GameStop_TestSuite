@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>5/2/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/25</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Oct 13 22:41:38 IST 2020</td>
+<td>Started on:</td><td>Mon Oct 19 21:57:23 IST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>193 seconds (193424 ms)</td>
+<tr><td>Total time:</td><td>7 seconds (7357 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -68,143 +68,32 @@ function toggleAllBoxes() {
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
 <table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.gamestop.tests_staging.GameStop_E2E_stage.homePage()'><b>homePage</b><br>Test class: com.gamestop.tests_staging.GameStop_E2E_stage</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//div[@class=&apos;col&apos;]//span)[1]&quot;}
-  (Session info: chrome=86.0.4240.75)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;WKWIN3661704&apos;, ip: &apos;192.168.55.107&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\chich\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58812}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 81d1fcd7f8c3841fbd0a5be48ff06f78
-*** Element info: {Using=xpath, value=(//div[@class=&apos;col&apos;]//span)[1]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy28.getText(Unknown Source)
-	at com.gamsestop.pages.HomePage_Stage.getSearchElement(HomePage_Stage.java:249)
-	at com.gamestop.tests_staging.GameStop_E2E_stage.homePage(GameStop_E2E_stage.java:75)
-	at java.util.ArrayList.forEach(Unknown Source)
-... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace989321301", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace989321301'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//div[@class=&apos;col&apos;]//span)[1]&quot;}
-  (Session info: chrome=86.0.4240.75)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;WKWIN3661704&apos;, ip: &apos;192.168.55.107&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\chich\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58812}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 81d1fcd7f8c3841fbd0a5be48ff06f78
-*** Element info: {Using=xpath, value=(//div[@class=&apos;col&apos;]//span)[1]}
-	at sun.reflect.GeneratedConstructorAccessor75.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy28.getText(Unknown Source)
-	at com.gamsestop.pages.HomePage_Stage.getSearchElement(HomePage_Stage.java:249)
-	at com.gamestop.tests_staging.GameStop_E2E_stage.homePage(GameStop_E2E_stage.java:75)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(Unknown Source)
-	at org.testng.TestRunner.privateRun(TestRunner.java:764)
-	at org.testng.TestRunner.run(TestRunner.java:585)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.runSuites(TestNG.java:1069)
-	at org.testng.TestNG.run(TestNG.java:1037)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>130</td>
-<td>com.gamestop.tests_staging.GameStop_E2E_stage@49912c99</td></tr>
-<tr>
-<td title='com.gamestop.tests_staging.GameStop_E2E_stage.videoGames()'><b>videoGames</b><br>Test class: com.gamestop.tests_staging.GameStop_E2E_stage</td>
+<td title='com.gamestop.tests_staging.GameStop_E2E_prod.driverInitiate()'><b>driverInitiate</b><br>Test class: com.gamestop.tests_staging.GameStop_E2E_prod</td>
 <td><div><pre>java.lang.NullPointerException
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy28.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
-	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670)
-	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-	at com.gamestop.resources.Base.WaitForObjectToBeClickable(Base.java:702)
-	at com.gamestop.tests_staging.GameStop_E2E_stage.videoGames(GameStop_E2E_stage.java:82)
-	at java.util.ArrayList.forEach(Unknown Source)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1244211620", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1244211620'><pre>java.lang.NullPointerException
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy28.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
-	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670)
-	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-	at com.gamestop.resources.Base.WaitForObjectToBeClickable(Base.java:702)
-	at com.gamestop.tests_staging.GameStop_E2E_stage.videoGames(GameStop_E2E_stage.java:82)
+	at com.gamestop.workflows.Home_Stage.getURL(Home_Stage.java:56)
+	at com.gamestop.tests_staging.GameStop_E2E_prod.driverInitiate(GameStop_E2E_prod.java:47)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1499418021", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1499418021'><pre>java.lang.NullPointerException
+	at com.gamestop.workflows.Home_Stage.getURL(Home_Stage.java:56)
+	at com.gamestop.tests_staging.GameStop_E2E_prod.driverInitiate(GameStop_E2E_prod.java:47)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(Unknown Source)
-	at org.testng.TestRunner.privateRun(TestRunner.java:764)
-	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+	at org.testng.TestRunner.run(TestRunner.java:578)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
@@ -219,11 +108,159 @@ Session ID: 81d1fcd7f8c3841fbd0a5be48ff06f78
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>0</td>
-<td>com.gamestop.tests_staging.GameStop_E2E_stage@49912c99</td></tr>
+<td>7</td>
+<td>com.gamestop.tests_staging.GameStop_E2E_prod@1cbb87f3</td></tr>
 </table><p>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.gamestop.tests_staging.GameStop_E2E_stage.driverInitiate()'><b>driverInitiate</b><br>Test class: com.gamestop.tests_staging.GameStop_E2E_stage</td>
+<td></td>
+<td>-1603124850</td>
+<td>com.gamestop.tests_staging.GameStop_E2E_stage@a2431d0</td></tr>
+<tr>
+<td title='com.gamestop.tests_staging.GameStop_Mobile_Prod.driverInitiate()'><b>driverInitiate</b><br>Test class: com.gamestop.tests_staging.GameStop_Mobile_Prod</td>
+<td></td>
+<td>-1603124850</td>
+<td>com.gamestop.tests_staging.GameStop_Mobile_Prod@1b6e1eff</td></tr>
+<tr>
+<td title='com.gamestop.tests_staging.GameStop_Mobile_Stage.driverInitiate()'><b>driverInitiate</b><br>Test class: com.gamestop.tests_staging.GameStop_Mobile_Stage</td>
+<td></td>
+<td>-1603124850</td>
+<td>com.gamestop.tests_staging.GameStop_Mobile_Stage@1a4013</td></tr>
+<tr>
+<td title='com.gamestop.tests_staging.GameStop_E2E_stage.extentReportTearDown()'><b>extentReportTearDown</b><br>Test class: com.gamestop.tests_staging.GameStop_E2E_stage</td>
+<td></td>
+<td>-1603124850</td>
+<td>com.gamestop.tests_staging.GameStop_E2E_stage@a2431d0</td></tr>
+<tr>
+<td title='com.gamestop.tests_staging.GameStop_E2E_stage.extentReportTearDown()'><b>extentReportTearDown</b><br>Test class: com.gamestop.tests_staging.GameStop_E2E_stage</td>
+<td></td>
+<td>-1603124850</td>
+<td>com.gamestop.tests_staging.GameStop_E2E_stage@a2431d0</td></tr>
+<tr>
+<td title='com.gamestop.tests_staging.GameStop_E2E_stage.extentReportTearDown()'><b>extentReportTearDown</b><br>Test class: com.gamestop.tests_staging.GameStop_E2E_stage</td>
+<td></td>
+<td>-1603124850</td>
+<td>com.gamestop.tests_staging.GameStop_E2E_stage@a2431d0</td></tr>
+<tr>
+<td title='com.gamestop.tests_staging.GameStop_E2E_stage.extentReportTearDown()'><b>extentReportTearDown</b><br>Test class: com.gamestop.tests_staging.GameStop_E2E_stage</td>
+<td></td>
+<td>-1603124850</td>
+<td>com.gamestop.tests_staging.GameStop_E2E_stage@a2431d0</td></tr>
+<tr>
+<td title='com.gamestop.tests_staging.GameStop_E2E_stage.extentReportTearDown()'><b>extentReportTearDown</b><br>Test class: com.gamestop.tests_staging.GameStop_E2E_stage</td>
+<td></td>
+<td>-1603124850</td>
+<td>com.gamestop.tests_staging.GameStop_E2E_stage@a2431d0</td></tr>
+<tr>
+<td title='com.gamestop.tests_staging.GameStop_E2E_stage.extentReportTearDown()'><b>extentReportTearDown</b><br>Test class: com.gamestop.tests_staging.GameStop_E2E_stage</td>
+<td></td>
+<td>-1603124850</td>
+<td>com.gamestop.tests_staging.GameStop_E2E_stage@a2431d0</td></tr>
+<tr>
+<td title='com.gamestop.tests_staging.GameStop_E2E_stage.extentReportTearDown()'><b>extentReportTearDown</b><br>Test class: com.gamestop.tests_staging.GameStop_E2E_stage</td>
+<td></td>
+<td>-1603124850</td>
+<td>com.gamestop.tests_staging.GameStop_E2E_stage@a2431d0</td></tr>
+<tr>
+<td title='com.gamestop.tests_staging.GameStop_E2E_prod.extentReportTearDown()'><b>extentReportTearDown</b><br>Test class: com.gamestop.tests_staging.GameStop_E2E_prod</td>
+<td></td>
+<td>-1603124850</td>
+<td>com.gamestop.tests_staging.GameStop_E2E_prod@1cbb87f3</td></tr>
+<tr>
+<td title='com.gamestop.tests_staging.GameStop_E2E_prod.extentReportTearDown()'><b>extentReportTearDown</b><br>Test class: com.gamestop.tests_staging.GameStop_E2E_prod</td>
+<td></td>
+<td>-1603124850</td>
+<td>com.gamestop.tests_staging.GameStop_E2E_prod@1cbb87f3</td></tr>
+<tr>
+<td title='com.gamestop.tests_staging.GameStop_E2E_prod.extentReportTearDown()'><b>extentReportTearDown</b><br>Test class: com.gamestop.tests_staging.GameStop_E2E_prod</td>
+<td></td>
+<td>-1603124850</td>
+<td>com.gamestop.tests_staging.GameStop_E2E_prod@1cbb87f3</td></tr>
+<tr>
+<td title='com.gamestop.tests_staging.GameStop_E2E_prod.extentReportTearDown()'><b>extentReportTearDown</b><br>Test class: com.gamestop.tests_staging.GameStop_E2E_prod</td>
+<td></td>
+<td>-1603124850</td>
+<td>com.gamestop.tests_staging.GameStop_E2E_prod@1cbb87f3</td></tr>
+<tr>
+<td title='com.gamestop.tests_staging.GameStop_E2E_prod.extentReportTearDown()'><b>extentReportTearDown</b><br>Test class: com.gamestop.tests_staging.GameStop_E2E_prod</td>
+<td></td>
+<td>-1603124850</td>
+<td>com.gamestop.tests_staging.GameStop_E2E_prod@1cbb87f3</td></tr>
+<tr>
+<td title='com.gamestop.tests_staging.GameStop_E2E_prod.extentReportTearDown()'><b>extentReportTearDown</b><br>Test class: com.gamestop.tests_staging.GameStop_E2E_prod</td>
+<td></td>
+<td>-1603124850</td>
+<td>com.gamestop.tests_staging.GameStop_E2E_prod@1cbb87f3</td></tr>
+<tr>
+<td title='com.gamestop.tests_staging.GameStop_Mobile_Stage.extentReportTearDown()'><b>extentReportTearDown</b><br>Test class: com.gamestop.tests_staging.GameStop_Mobile_Stage</td>
+<td></td>
+<td>-1603124850</td>
+<td>com.gamestop.tests_staging.GameStop_Mobile_Stage@1a4013</td></tr>
+<tr>
+<td title='com.gamestop.tests_staging.GameStop_Mobile_Stage.extentReportTearDown()'><b>extentReportTearDown</b><br>Test class: com.gamestop.tests_staging.GameStop_Mobile_Stage</td>
+<td></td>
+<td>-1603124850</td>
+<td>com.gamestop.tests_staging.GameStop_Mobile_Stage@1a4013</td></tr>
+<tr>
+<td title='com.gamestop.tests_staging.GameStop_Mobile_Stage.extentReportTearDown()'><b>extentReportTearDown</b><br>Test class: com.gamestop.tests_staging.GameStop_Mobile_Stage</td>
+<td></td>
+<td>-1603124850</td>
+<td>com.gamestop.tests_staging.GameStop_Mobile_Stage@1a4013</td></tr>
+<tr>
+<td title='com.gamestop.tests_staging.GameStop_Mobile_Stage.extentReportTearDown()'><b>extentReportTearDown</b><br>Test class: com.gamestop.tests_staging.GameStop_Mobile_Stage</td>
+<td></td>
+<td>-1603124850</td>
+<td>com.gamestop.tests_staging.GameStop_Mobile_Stage@1a4013</td></tr>
+<tr>
+<td title='com.gamestop.tests_staging.GameStop_Mobile_Stage.extentReportTearDown()'><b>extentReportTearDown</b><br>Test class: com.gamestop.tests_staging.GameStop_Mobile_Stage</td>
+<td></td>
+<td>-1603124850</td>
+<td>com.gamestop.tests_staging.GameStop_Mobile_Stage@1a4013</td></tr>
+<tr>
+<td title='com.gamestop.tests_staging.GameStop_Mobile_Stage.extentReportTearDown()'><b>extentReportTearDown</b><br>Test class: com.gamestop.tests_staging.GameStop_Mobile_Stage</td>
+<td></td>
+<td>-1603124850</td>
+<td>com.gamestop.tests_staging.GameStop_Mobile_Stage@1a4013</td></tr>
+<tr>
+<td title='com.gamestop.tests_staging.GameStop_Mobile_Prod.extentReportTearDown()'><b>extentReportTearDown</b><br>Test class: com.gamestop.tests_staging.GameStop_Mobile_Prod</td>
+<td></td>
+<td>-1603124850</td>
+<td>com.gamestop.tests_staging.GameStop_Mobile_Prod@1b6e1eff</td></tr>
+<tr>
+<td title='com.gamestop.tests_staging.GameStop_Mobile_Prod.extentReportTearDown()'><b>extentReportTearDown</b><br>Test class: com.gamestop.tests_staging.GameStop_Mobile_Prod</td>
+<td></td>
+<td>-1603124850</td>
+<td>com.gamestop.tests_staging.GameStop_Mobile_Prod@1b6e1eff</td></tr>
+<tr>
+<td title='com.gamestop.tests_staging.GameStop_Mobile_Prod.extentReportTearDown()'><b>extentReportTearDown</b><br>Test class: com.gamestop.tests_staging.GameStop_Mobile_Prod</td>
+<td></td>
+<td>-1603124850</td>
+<td>com.gamestop.tests_staging.GameStop_Mobile_Prod@1b6e1eff</td></tr>
+<tr>
+<td title='com.gamestop.tests_staging.GameStop_Mobile_Prod.extentReportTearDown()'><b>extentReportTearDown</b><br>Test class: com.gamestop.tests_staging.GameStop_Mobile_Prod</td>
+<td></td>
+<td>-1603124850</td>
+<td>com.gamestop.tests_staging.GameStop_Mobile_Prod@1b6e1eff</td></tr>
+<tr>
+<td title='com.gamestop.tests_staging.GameStop_Mobile_Prod.extentReportTearDown()'><b>extentReportTearDown</b><br>Test class: com.gamestop.tests_staging.GameStop_Mobile_Prod</td>
+<td></td>
+<td>-1603124850</td>
+<td>com.gamestop.tests_staging.GameStop_Mobile_Prod@1b6e1eff</td></tr>
+<tr>
+<td title='com.gamestop.tests_staging.GameStop_Mobile_Prod.extentReportTearDown()'><b>extentReportTearDown</b><br>Test class: com.gamestop.tests_staging.GameStop_Mobile_Prod</td>
+<td></td>
+<td>-1603124850</td>
+<td>com.gamestop.tests_staging.GameStop_Mobile_Prod@1b6e1eff</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
@@ -231,29 +268,904 @@ Session ID: 81d1fcd7f8c3841fbd0a5be48ff06f78
 </tr>
 <tr>
 <td title='com.gamestop.tests_staging.GameStop_E2E_stage.accessories()'><b>accessories</b><br>Test class: com.gamestop.tests_staging.GameStop_E2E_stage</td>
-<td></td>
+<td><div><pre>java.lang.NullPointerException
+	at com.gamestop.workflows.Home_Stage.getURL(Home_Stage.java:56)
+	at com.gamestop.tests_staging.GameStop_E2E_prod.driverInitiate(GameStop_E2E_prod.java:47)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace13117403", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace13117403'><pre>java.lang.NullPointerException
+	at com.gamestop.workflows.Home_Stage.getURL(Home_Stage.java:56)
+	at com.gamestop.tests_staging.GameStop_E2E_prod.driverInitiate(GameStop_E2E_prod.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+	at org.testng.TestRunner.run(TestRunner.java:578)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
 <td>0</td>
-<td>com.gamestop.tests_staging.GameStop_E2E_stage@49912c99</td></tr>
+<td>com.gamestop.tests_staging.GameStop_E2E_stage@a2431d0</td></tr>
+<tr>
+<td title='com.gamestop.tests_staging.GameStop_Mobile_Stage.accessories_ContentaValidation()'><b>accessories_ContentaValidation</b><br>Test class: com.gamestop.tests_staging.GameStop_Mobile_Stage</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.gamestop.workflows.Home_Stage.getURL(Home_Stage.java:56)
+	at com.gamestop.tests_staging.GameStop_E2E_prod.driverInitiate(GameStop_E2E_prod.java:47)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1400582895", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1400582895'><pre>java.lang.NullPointerException
+	at com.gamestop.workflows.Home_Stage.getURL(Home_Stage.java:56)
+	at com.gamestop.tests_staging.GameStop_E2E_prod.driverInitiate(GameStop_E2E_prod.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+	at org.testng.TestRunner.run(TestRunner.java:578)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.gamestop.tests_staging.GameStop_Mobile_Stage@1a4013</td></tr>
+<tr>
+<td title='com.gamestop.tests_staging.GameStop_E2E_prod.accessories_validation()'><b>accessories_validation</b><br>Test class: com.gamestop.tests_staging.GameStop_E2E_prod</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.gamestop.workflows.Home_Stage.getURL(Home_Stage.java:56)
+	at com.gamestop.tests_staging.GameStop_E2E_prod.driverInitiate(GameStop_E2E_prod.java:47)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace324579982", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace324579982'><pre>java.lang.NullPointerException
+	at com.gamestop.workflows.Home_Stage.getURL(Home_Stage.java:56)
+	at com.gamestop.tests_staging.GameStop_E2E_prod.driverInitiate(GameStop_E2E_prod.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+	at org.testng.TestRunner.run(TestRunner.java:578)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.gamestop.tests_staging.GameStop_E2E_prod@1cbb87f3</td></tr>
+<tr>
+<td title='com.gamestop.tests_staging.GameStop_Mobile_Prod.accessories_validation()'><b>accessories_validation</b><br>Test class: com.gamestop.tests_staging.GameStop_Mobile_Prod</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.gamestop.workflows.Home_Stage.getURL(Home_Stage.java:56)
+	at com.gamestop.tests_staging.GameStop_E2E_prod.driverInitiate(GameStop_E2E_prod.java:47)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1850646717", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1850646717'><pre>java.lang.NullPointerException
+	at com.gamestop.workflows.Home_Stage.getURL(Home_Stage.java:56)
+	at com.gamestop.tests_staging.GameStop_E2E_prod.driverInitiate(GameStop_E2E_prod.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+	at org.testng.TestRunner.run(TestRunner.java:578)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.gamestop.tests_staging.GameStop_Mobile_Prod@1b6e1eff</td></tr>
 <tr>
 <td title='com.gamestop.tests_staging.GameStop_E2E_stage.clothing()'><b>clothing</b><br>Test class: com.gamestop.tests_staging.GameStop_E2E_stage</td>
-<td></td>
+<td><div><pre>java.lang.NullPointerException
+	at com.gamestop.workflows.Home_Stage.getURL(Home_Stage.java:56)
+	at com.gamestop.tests_staging.GameStop_E2E_prod.driverInitiate(GameStop_E2E_prod.java:47)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace585074510", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace585074510'><pre>java.lang.NullPointerException
+	at com.gamestop.workflows.Home_Stage.getURL(Home_Stage.java:56)
+	at com.gamestop.tests_staging.GameStop_E2E_prod.driverInitiate(GameStop_E2E_prod.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+	at org.testng.TestRunner.run(TestRunner.java:578)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
 <td>0</td>
-<td>com.gamestop.tests_staging.GameStop_E2E_stage@49912c99</td></tr>
+<td>com.gamestop.tests_staging.GameStop_E2E_stage@a2431d0</td></tr>
+<tr>
+<td title='com.gamestop.tests_staging.GameStop_Mobile_Stage.clothing_Validation()'><b>clothing_Validation</b><br>Test class: com.gamestop.tests_staging.GameStop_Mobile_Stage</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.gamestop.workflows.Home_Stage.getURL(Home_Stage.java:56)
+	at com.gamestop.tests_staging.GameStop_E2E_prod.driverInitiate(GameStop_E2E_prod.java:47)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1264701638", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1264701638'><pre>java.lang.NullPointerException
+	at com.gamestop.workflows.Home_Stage.getURL(Home_Stage.java:56)
+	at com.gamestop.tests_staging.GameStop_E2E_prod.driverInitiate(GameStop_E2E_prod.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+	at org.testng.TestRunner.run(TestRunner.java:578)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.gamestop.tests_staging.GameStop_Mobile_Stage@1a4013</td></tr>
+<tr>
+<td title='com.gamestop.tests_staging.GameStop_Mobile_Prod.clothing_validation()'><b>clothing_validation</b><br>Test class: com.gamestop.tests_staging.GameStop_Mobile_Prod</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.gamestop.workflows.Home_Stage.getURL(Home_Stage.java:56)
+	at com.gamestop.tests_staging.GameStop_E2E_prod.driverInitiate(GameStop_E2E_prod.java:47)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2029645118", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2029645118'><pre>java.lang.NullPointerException
+	at com.gamestop.workflows.Home_Stage.getURL(Home_Stage.java:56)
+	at com.gamestop.tests_staging.GameStop_E2E_prod.driverInitiate(GameStop_E2E_prod.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+	at org.testng.TestRunner.run(TestRunner.java:578)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.gamestop.tests_staging.GameStop_Mobile_Prod@1b6e1eff</td></tr>
+<tr>
+<td title='com.gamestop.tests_staging.GameStop_E2E_prod.clothing_validations()'><b>clothing_validations</b><br>Test class: com.gamestop.tests_staging.GameStop_E2E_prod</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.gamestop.workflows.Home_Stage.getURL(Home_Stage.java:56)
+	at com.gamestop.tests_staging.GameStop_E2E_prod.driverInitiate(GameStop_E2E_prod.java:47)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace435803541", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace435803541'><pre>java.lang.NullPointerException
+	at com.gamestop.workflows.Home_Stage.getURL(Home_Stage.java:56)
+	at com.gamestop.tests_staging.GameStop_E2E_prod.driverInitiate(GameStop_E2E_prod.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+	at org.testng.TestRunner.run(TestRunner.java:578)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.gamestop.tests_staging.GameStop_E2E_prod@1cbb87f3</td></tr>
+<tr>
+<td title='com.gamestop.tests_staging.GameStop_E2E_stage.dealsOfTheDay()'><b>dealsOfTheDay</b><br>Test class: com.gamestop.tests_staging.GameStop_E2E_stage</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.gamestop.workflows.Home_Stage.getURL(Home_Stage.java:56)
+	at com.gamestop.tests_staging.GameStop_E2E_prod.driverInitiate(GameStop_E2E_prod.java:47)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1541075662", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1541075662'><pre>java.lang.NullPointerException
+	at com.gamestop.workflows.Home_Stage.getURL(Home_Stage.java:56)
+	at com.gamestop.tests_staging.GameStop_E2E_prod.driverInitiate(GameStop_E2E_prod.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+	at org.testng.TestRunner.run(TestRunner.java:578)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.gamestop.tests_staging.GameStop_E2E_stage@a2431d0</td></tr>
+<tr>
+<td title='com.gamestop.tests_staging.GameStop_Mobile_Stage.deals_Validation()'><b>deals_Validation</b><br>Test class: com.gamestop.tests_staging.GameStop_Mobile_Stage</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.gamestop.workflows.Home_Stage.getURL(Home_Stage.java:56)
+	at com.gamestop.tests_staging.GameStop_E2E_prod.driverInitiate(GameStop_E2E_prod.java:47)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1709700394", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1709700394'><pre>java.lang.NullPointerException
+	at com.gamestop.workflows.Home_Stage.getURL(Home_Stage.java:56)
+	at com.gamestop.tests_staging.GameStop_E2E_prod.driverInitiate(GameStop_E2E_prod.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+	at org.testng.TestRunner.run(TestRunner.java:578)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.gamestop.tests_staging.GameStop_Mobile_Stage@1a4013</td></tr>
+<tr>
+<td title='com.gamestop.tests_staging.GameStop_E2E_prod.deals_validation()'><b>deals_validation</b><br>Test class: com.gamestop.tests_staging.GameStop_E2E_prod</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.gamestop.workflows.Home_Stage.getURL(Home_Stage.java:56)
+	at com.gamestop.tests_staging.GameStop_E2E_prod.driverInitiate(GameStop_E2E_prod.java:47)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace738111983", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace738111983'><pre>java.lang.NullPointerException
+	at com.gamestop.workflows.Home_Stage.getURL(Home_Stage.java:56)
+	at com.gamestop.tests_staging.GameStop_E2E_prod.driverInitiate(GameStop_E2E_prod.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+	at org.testng.TestRunner.run(TestRunner.java:578)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.gamestop.tests_staging.GameStop_E2E_prod@1cbb87f3</td></tr>
+<tr>
+<td title='com.gamestop.tests_staging.GameStop_Mobile_Prod.deals_validation()'><b>deals_validation</b><br>Test class: com.gamestop.tests_staging.GameStop_Mobile_Prod</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.gamestop.workflows.Home_Stage.getURL(Home_Stage.java:56)
+	at com.gamestop.tests_staging.GameStop_E2E_prod.driverInitiate(GameStop_E2E_prod.java:47)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace185164978", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace185164978'><pre>java.lang.NullPointerException
+	at com.gamestop.workflows.Home_Stage.getURL(Home_Stage.java:56)
+	at com.gamestop.tests_staging.GameStop_E2E_prod.driverInitiate(GameStop_E2E_prod.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+	at org.testng.TestRunner.run(TestRunner.java:578)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.gamestop.tests_staging.GameStop_Mobile_Prod@1b6e1eff</td></tr>
 <tr>
 <td title='com.gamestop.tests_staging.GameStop_E2E_stage.electronics()'><b>electronics</b><br>Test class: com.gamestop.tests_staging.GameStop_E2E_stage</td>
-<td></td>
+<td><div><pre>java.lang.NullPointerException
+	at com.gamestop.workflows.Home_Stage.getURL(Home_Stage.java:56)
+	at com.gamestop.tests_staging.GameStop_E2E_prod.driverInitiate(GameStop_E2E_prod.java:47)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1125098735", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1125098735'><pre>java.lang.NullPointerException
+	at com.gamestop.workflows.Home_Stage.getURL(Home_Stage.java:56)
+	at com.gamestop.tests_staging.GameStop_E2E_prod.driverInitiate(GameStop_E2E_prod.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+	at org.testng.TestRunner.run(TestRunner.java:578)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
 <td>0</td>
-<td>com.gamestop.tests_staging.GameStop_E2E_stage@49912c99</td></tr>
+<td>com.gamestop.tests_staging.GameStop_E2E_stage@a2431d0</td></tr>
+<tr>
+<td title='com.gamestop.tests_staging.GameStop_E2E_prod.electronics_validation()'><b>electronics_validation</b><br>Test class: com.gamestop.tests_staging.GameStop_E2E_prod</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.gamestop.workflows.Home_Stage.getURL(Home_Stage.java:56)
+	at com.gamestop.tests_staging.GameStop_E2E_prod.driverInitiate(GameStop_E2E_prod.java:47)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace546217718", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace546217718'><pre>java.lang.NullPointerException
+	at com.gamestop.workflows.Home_Stage.getURL(Home_Stage.java:56)
+	at com.gamestop.tests_staging.GameStop_E2E_prod.driverInitiate(GameStop_E2E_prod.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+	at org.testng.TestRunner.run(TestRunner.java:578)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.gamestop.tests_staging.GameStop_E2E_prod@1cbb87f3</td></tr>
 <tr>
 <td title='com.gamestop.tests_staging.GameStop_E2E_stage.giftCards()'><b>giftCards</b><br>Test class: com.gamestop.tests_staging.GameStop_E2E_stage</td>
-<td></td>
+<td><div><pre>java.lang.NullPointerException
+	at com.gamestop.workflows.Home_Stage.getURL(Home_Stage.java:56)
+	at com.gamestop.tests_staging.GameStop_E2E_prod.driverInitiate(GameStop_E2E_prod.java:47)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace485047320", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace485047320'><pre>java.lang.NullPointerException
+	at com.gamestop.workflows.Home_Stage.getURL(Home_Stage.java:56)
+	at com.gamestop.tests_staging.GameStop_E2E_prod.driverInitiate(GameStop_E2E_prod.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+	at org.testng.TestRunner.run(TestRunner.java:578)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
 <td>0</td>
-<td>com.gamestop.tests_staging.GameStop_E2E_stage@49912c99</td></tr>
+<td>com.gamestop.tests_staging.GameStop_E2E_stage@a2431d0</td></tr>
+<tr>
+<td title='com.gamestop.tests_staging.GameStop_E2E_prod.homePage_Validation()'><b>homePage_Validation</b><br>Test class: com.gamestop.tests_staging.GameStop_E2E_prod</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.gamestop.workflows.Home_Stage.getURL(Home_Stage.java:56)
+	at com.gamestop.tests_staging.GameStop_E2E_prod.driverInitiate(GameStop_E2E_prod.java:47)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace639467920", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace639467920'><pre>java.lang.NullPointerException
+	at com.gamestop.workflows.Home_Stage.getURL(Home_Stage.java:56)
+	at com.gamestop.tests_staging.GameStop_E2E_prod.driverInitiate(GameStop_E2E_prod.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+	at org.testng.TestRunner.run(TestRunner.java:578)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.gamestop.tests_staging.GameStop_E2E_prod@1cbb87f3</td></tr>
+<tr>
+<td title='com.gamestop.tests_staging.GameStop_Mobile_Stage.homePage_contentValidation()'><b>homePage_contentValidation</b><br>Test class: com.gamestop.tests_staging.GameStop_Mobile_Stage</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.gamestop.workflows.Home_Stage.getURL(Home_Stage.java:56)
+	at com.gamestop.tests_staging.GameStop_E2E_prod.driverInitiate(GameStop_E2E_prod.java:47)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1969856053", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1969856053'><pre>java.lang.NullPointerException
+	at com.gamestop.workflows.Home_Stage.getURL(Home_Stage.java:56)
+	at com.gamestop.tests_staging.GameStop_E2E_prod.driverInitiate(GameStop_E2E_prod.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+	at org.testng.TestRunner.run(TestRunner.java:578)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.gamestop.tests_staging.GameStop_Mobile_Stage@1a4013</td></tr>
+<tr>
+<td title='com.gamestop.tests_staging.GameStop_Mobile_Prod.homepage_mob_Validation()'><b>homepage_mob_Validation</b><br>Test class: com.gamestop.tests_staging.GameStop_Mobile_Prod</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.gamestop.workflows.Home_Stage.getURL(Home_Stage.java:56)
+	at com.gamestop.tests_staging.GameStop_E2E_prod.driverInitiate(GameStop_E2E_prod.java:47)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2134915053", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2134915053'><pre>java.lang.NullPointerException
+	at com.gamestop.workflows.Home_Stage.getURL(Home_Stage.java:56)
+	at com.gamestop.tests_staging.GameStop_E2E_prod.driverInitiate(GameStop_E2E_prod.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+	at org.testng.TestRunner.run(TestRunner.java:578)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.gamestop.tests_staging.GameStop_Mobile_Prod@1b6e1eff</td></tr>
+<tr>
+<td title='com.gamestop.tests_staging.GameStop_Mobile_Prod.toysAndCollectibiles()'><b>toysAndCollectibiles</b><br>Test class: com.gamestop.tests_staging.GameStop_Mobile_Prod</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.gamestop.workflows.Home_Stage.getURL(Home_Stage.java:56)
+	at com.gamestop.tests_staging.GameStop_E2E_prod.driverInitiate(GameStop_E2E_prod.java:47)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1677984391", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1677984391'><pre>java.lang.NullPointerException
+	at com.gamestop.workflows.Home_Stage.getURL(Home_Stage.java:56)
+	at com.gamestop.tests_staging.GameStop_E2E_prod.driverInitiate(GameStop_E2E_prod.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+	at org.testng.TestRunner.run(TestRunner.java:578)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.gamestop.tests_staging.GameStop_Mobile_Prod@1b6e1eff</td></tr>
+<tr>
+<td title='com.gamestop.tests_staging.GameStop_Mobile_Stage.toysAndCollectibiles_validation()'><b>toysAndCollectibiles_validation</b><br>Test class: com.gamestop.tests_staging.GameStop_Mobile_Stage</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.gamestop.workflows.Home_Stage.getURL(Home_Stage.java:56)
+	at com.gamestop.tests_staging.GameStop_E2E_prod.driverInitiate(GameStop_E2E_prod.java:47)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1256893889", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1256893889'><pre>java.lang.NullPointerException
+	at com.gamestop.workflows.Home_Stage.getURL(Home_Stage.java:56)
+	at com.gamestop.tests_staging.GameStop_E2E_prod.driverInitiate(GameStop_E2E_prod.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+	at org.testng.TestRunner.run(TestRunner.java:578)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.gamestop.tests_staging.GameStop_Mobile_Stage@1a4013</td></tr>
 <tr>
 <td title='com.gamestop.tests_staging.GameStop_E2E_stage.toysAndCollectiblies()'><b>toysAndCollectiblies</b><br>Test class: com.gamestop.tests_staging.GameStop_E2E_stage</td>
-<td></td>
+<td><div><pre>java.lang.NullPointerException
+	at com.gamestop.workflows.Home_Stage.getURL(Home_Stage.java:56)
+	at com.gamestop.tests_staging.GameStop_E2E_prod.driverInitiate(GameStop_E2E_prod.java:47)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1401737458", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1401737458'><pre>java.lang.NullPointerException
+	at com.gamestop.workflows.Home_Stage.getURL(Home_Stage.java:56)
+	at com.gamestop.tests_staging.GameStop_E2E_prod.driverInitiate(GameStop_E2E_prod.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+	at org.testng.TestRunner.run(TestRunner.java:578)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
 <td>0</td>
-<td>com.gamestop.tests_staging.GameStop_E2E_stage@49912c99</td></tr>
+<td>com.gamestop.tests_staging.GameStop_E2E_stage@a2431d0</td></tr>
+<tr>
+<td title='com.gamestop.tests_staging.GameStop_E2E_stage.videoGames()'><b>videoGames</b><br>Test class: com.gamestop.tests_staging.GameStop_E2E_stage</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.gamestop.workflows.Home_Stage.getURL(Home_Stage.java:56)
+	at com.gamestop.tests_staging.GameStop_E2E_prod.driverInitiate(GameStop_E2E_prod.java:47)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace215478702", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace215478702'><pre>java.lang.NullPointerException
+	at com.gamestop.workflows.Home_Stage.getURL(Home_Stage.java:56)
+	at com.gamestop.tests_staging.GameStop_E2E_prod.driverInitiate(GameStop_E2E_prod.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+	at org.testng.TestRunner.run(TestRunner.java:578)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.gamestop.tests_staging.GameStop_E2E_stage@a2431d0</td></tr>
+<tr>
+<td title='com.gamestop.tests_staging.GameStop_E2E_prod.videoGames_ContentValidation()'><b>videoGames_ContentValidation</b><br>Test class: com.gamestop.tests_staging.GameStop_E2E_prod</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.gamestop.workflows.Home_Stage.getURL(Home_Stage.java:56)
+	at com.gamestop.tests_staging.GameStop_E2E_prod.driverInitiate(GameStop_E2E_prod.java:47)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1625939772", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1625939772'><pre>java.lang.NullPointerException
+	at com.gamestop.workflows.Home_Stage.getURL(Home_Stage.java:56)
+	at com.gamestop.tests_staging.GameStop_E2E_prod.driverInitiate(GameStop_E2E_prod.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+	at org.testng.TestRunner.run(TestRunner.java:578)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.gamestop.tests_staging.GameStop_E2E_prod@1cbb87f3</td></tr>
+<tr>
+<td title='com.gamestop.tests_staging.GameStop_Mobile_Stage.videoGames_ContentValidation()'><b>videoGames_ContentValidation</b><br>Test class: com.gamestop.tests_staging.GameStop_Mobile_Stage</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.gamestop.workflows.Home_Stage.getURL(Home_Stage.java:56)
+	at com.gamestop.tests_staging.GameStop_E2E_prod.driverInitiate(GameStop_E2E_prod.java:47)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace521466380", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace521466380'><pre>java.lang.NullPointerException
+	at com.gamestop.workflows.Home_Stage.getURL(Home_Stage.java:56)
+	at com.gamestop.tests_staging.GameStop_E2E_prod.driverInitiate(GameStop_E2E_prod.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+	at org.testng.TestRunner.run(TestRunner.java:578)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.gamestop.tests_staging.GameStop_Mobile_Stage@1a4013</td></tr>
+<tr>
+<td title='com.gamestop.tests_staging.GameStop_Mobile_Prod.videoGames_validation()'><b>videoGames_validation</b><br>Test class: com.gamestop.tests_staging.GameStop_Mobile_Prod</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.gamestop.workflows.Home_Stage.getURL(Home_Stage.java:56)
+	at com.gamestop.tests_staging.GameStop_E2E_prod.driverInitiate(GameStop_E2E_prod.java:47)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1871312485", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1871312485'><pre>java.lang.NullPointerException
+	at com.gamestop.workflows.Home_Stage.getURL(Home_Stage.java:56)
+	at com.gamestop.tests_staging.GameStop_E2E_prod.driverInitiate(GameStop_E2E_prod.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:607)
+	at org.testng.TestRunner.run(TestRunner.java:578)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.gamestop.tests_staging.GameStop_Mobile_Prod@1b6e1eff</td></tr>
 </table><p>
 </body>
 </html>

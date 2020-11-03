@@ -1,0 +1,6 @@
+23:47:19.805 [main] INFO  com.gamestop.tests_staging.GameStop_E2E_stage - Initializing  webdriver
+23:47:20.592 [main] INFO  com.gamestop.resources.Base - Browser selected is :chrome
+23:47:44.750 [main] INFO  com.gamestop.workflows.Home_Stage - Successfully luanch URLhttps://sfcc-stg.gamestop.com/?rt=homePageRedesign
+23:47:46.176 [main] INFO  com.gamestop.workflows.Home_Stage - switch to frame
+23:48:07.432 [main] INFO  com.gamestop.workflows.Home_Stage - Moved to +1 day
+23:48:08.162 [main] INFO  com.gamestop.resources.Base - Gamestop testcase Execution Completed

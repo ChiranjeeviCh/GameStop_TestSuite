@@ -49,20 +49,20 @@
 	   				<suiteXmlFile>testng.xml</suiteXmlFile>
 			</suiteXmlFiles>
 			<testFailureIgnore>true</testFailureIgnore>
-                <shutdown>kill</shutdown> <!-- Use it if required-->
+                <!-- <shutdown>kill</shutdown> Use it if required -->
 			<configuration>
         <testFailureIgnore>true</testFailureIgnore>
     </configuration>
 	        </configuration>
 	      </plugin>
-	<!-- <plugin>
+	<plugin>
 	      <groupId>org.apache.maven.plugins</groupId>
 	      <artifactId>maven-compiler-plugin</artifactId>
 		      <configuration>
 		        <source>1.8</source>
 		        <target>1.8</target>
 	      	  </configuration>
-    </plugin>    -->
+    </plugin>   
   
 </plugins>
   
@@ -70,7 +70,7 @@
   </build>
    
   <dependencies>
-  <dependency>
+    <dependency>
     <groupId>xml-apis</groupId>
     <artifactId>xml-apis</artifactId>
     <version>1.4.01</version>
